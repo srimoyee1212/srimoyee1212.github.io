@@ -52,6 +52,13 @@ h4 {
     letter-spacing: 0.25px;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+
 img {
     width: 100%;
     overflow: hidden;
