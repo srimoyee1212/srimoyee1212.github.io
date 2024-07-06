@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
       ],
     },
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1yDl7G_JmqjuJTTNafql05mzzVfYFDYBe/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
