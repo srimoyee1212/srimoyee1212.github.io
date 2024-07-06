@@ -28,24 +28,24 @@ const CONFIG = {
         projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'srimoyee1212/Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    //external: {
-      //header: '', //My Projects
+    external: {
+      header: '', //My Projects
       // To hide the `External Projects` section, keep it empty.
       //projects: [
         //{
           //title: '',
           //description:
-            '',
+            //'',
           //imageUrl:
-            '',
+            //'',
           //link: '',
         //},
         //{
           //title: '',
           //description:
-            '',
+            //'',
           //imageUrl:
-            '',
+            //'',
           //link: '',
         //},
       //],
@@ -156,15 +156,6 @@ const CONFIG = {
       link: 'https://ieeexplore.ieee.org/document/9697297',
       description:
         'The security strength of Industrial Control Protocol (ICP) directly impacts the robustness of Industrial Control Systems (ICS). The security metrics of ICS rely on ICP’s structure, so the security levels of ICS can be incremented with a powerful ICP. This notion begs for a need to develop an effective vulnerability detection system for ICPs. To this end, fuzz testing has emerged as the most conspicuous method for identifying the vulnerabilities in ICPs, as present in the literature. However, ICP specifications are a dominant part of the fuzzing methods and analyzing them becomes very tedious and time-consuming. In this research, we propose a novel WassersteinGAN-based neural network framework - the GANFuzzer. This time-saving and computationally efficient framework helps augment the probability of triggering vulnerabilities. Conclusively, a comparative analysis was performed by assessing the performance of varied ICPs. The effectiveness of the GANFuzzer is also proven by the wide range of tests conducted as a part of this research.',
-    },
-    {
-      title: '',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
-      description:
-        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
