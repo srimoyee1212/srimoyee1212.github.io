@@ -25,11 +25,11 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'srimoyee1212/Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: '', //My Projects
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
