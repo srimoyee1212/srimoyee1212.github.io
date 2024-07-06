@@ -28,28 +28,28 @@ const CONFIG = {
         projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'srimoyee1212/Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
-      header: '', //My Projects
+    //external: {
+      //header: '', //My Projects
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: '',
-          description:
+      //projects: [
+        //{
+          //title: '',
+          //description:
             '',
-          imageUrl:
+          //imageUrl:
             '',
-          link: '',
-        },
-        {
-          title: '',
-          description:
+          //link: '',
+        //},
+        //{
+          //title: '',
+          //description:
             '',
-          imageUrl:
+          //imageUrl:
             '',
-          link: '',
-        },
-      ],
-    },
+          //link: '',
+        //},
+      //],
+    //},
   },
   seo: {
     title: 'Portfolio of Srimoyee Mukhopadhyay',
@@ -97,18 +97,32 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'RapidReview',
+      position: 'Machine Learning Research Engineer',
+      from: 'January 2024',
       to: 'Present',
+      companyLink: '',
+    },
+    {
+      company: 'Cornell Tech',
+      position: 'Course Assistant',
+      from: 'August 2023',
+      to: 'May 2024',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Radical AI',
+      position: 'Machine Learning Engineer Intern',
+      from: 'June 2023',
+      to: 'August 2023',
+      companyLink: '',
+    },
+    {
+      company: 'Nutanix Inc',
+      position: 'Software Engineer',
+      from: 'August 2020',
+      to: 'June 2022',
+      companyLink: '',
     },
   ],
   certifications: [
