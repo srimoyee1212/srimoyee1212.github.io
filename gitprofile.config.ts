@@ -31,25 +31,25 @@ const CONFIG = {
     external: {
       header: '', //My Projects
       // To hide the `External Projects` section, keep it empty.
-      //projects: [
-        //{
-          //title: '',
-          //description:
+      projects: [
+        {
+          title: '',
+          description:
+            '',
+          imageUrl:
+            '',
+          link: '',
+        },
+        {
+          title: '',
+          description:
+            '',
+          imageUrl:
             //'',
-          //imageUrl:
-            //'',
-          //link: '',
-        //},
-        //{
-          //title: '',
-          //description:
-            //'',
-          //imageUrl:
-            //'',
-          //link: '',
-        //},
-      //],
-    //},
+          link: '',
+        },
+      ],
+    },
   },
   seo: {
     title: 'Portfolio of Srimoyee Mukhopadhyay',
