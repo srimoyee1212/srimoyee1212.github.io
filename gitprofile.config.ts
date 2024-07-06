@@ -83,20 +83,17 @@ const CONFIG = {
       'https://drive.google.com/file/d/1yDl7G_JmqjuJTTNafql05mzzVfYFDYBe/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
+    'Python',
+    'MongoDB',
+    'Hadoop',
+    'AWS SageMaker',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Tableau',
+    
   ],
   experiences: [
     {
@@ -138,22 +135,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Industrial Control Protocol Fuzzing using Deep Adversarial Networks',
+      conferenceName: '2021 International Conference on Advances in Computing, Communication, and Control (ICAC3)',
+      journalName: 'IEEE Xplore',
+      authors: 'Srimoyee Mukhopadhyay',
+      link: 'https://ieeexplore.ieee.org/document/9697297',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'The security strength of Industrial Control Protocol (ICP) directly impacts the robustness of Industrial Control Systems (ICS). The security metrics of ICS rely on ICP’s structure, so the security levels of ICS can be incremented with a powerful ICP. This notion begs for a need to develop an effective vulnerability detection system for ICPs. To this end, fuzz testing has emerged as the most conspicuous method for identifying the vulnerabilities in ICPs, as present in the literature. However, ICP specifications are a dominant part of the fuzzing methods and analyzing them becomes very tedious and time-consuming. In this research, we propose a novel WassersteinGAN-based neural network framework - the GANFuzzer. This time-saving and computationally efficient framework helps augment the probability of triggering vulnerabilities. Conclusively, a comparative analysis was performed by assessing the performance of varied ICPs. The effectiveness of the GANFuzzer is also proven by the wide range of tests conducted as a part of this research.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
