@@ -94,7 +94,7 @@ const CONFIG = {
     'Docker',
     'Tableau',
   ],
-  experiences: [[
+  experiences: [
     {
       company: 'RapidReview',
       position: 'Machine Learning Research Engineer',
