@@ -83,20 +83,16 @@ const CONFIG = {
       'https://drive.google.com/file/d/1yDl7G_JmqjuJTTNafql05mzzVfYFDYBe/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
+    'Python',
+    'MongoDB',
+    'Hadoop',
+    'AWS SageMaker',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Tableau',
   ],
   experiences: [
     {
