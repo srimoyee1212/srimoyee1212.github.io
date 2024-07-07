@@ -127,16 +127,16 @@ const CONFIG = {
 
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Cornell University',
+      degree: 'Master of Science in Computer and Information Science',
+      from: '2022',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Manipal Institute of Technology',
+      degree: 'Bachelor of Technology in Computer Science',
+      from: '2016',
+      to: '2020',
     },
   ],
   publications: [
@@ -152,8 +152,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
