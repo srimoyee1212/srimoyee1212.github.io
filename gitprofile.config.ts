@@ -94,30 +94,37 @@ const CONFIG = {
     'Docker',
     'Tableau',
   ],
-  experiences: [
+  experiences: [[
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'RapidReview',
+      position: 'Machine Learning Research Engineer',
+      from: 'January 2024',
       to: 'Present',
+      companyLink: '',
+    },
+    {
+      company: 'Cornell Tech',
+      position: 'Course Assistant',
+      from: 'August 2023',
+      to: 'May 2024',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Radical AI',
+      position: 'Machine Learning Engineer Intern',
+      from: 'June 2023',
+      to: 'August 2023',
+      companyLink: '',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Nutanix Inc',
+      position: 'Software Engineer',
+      from: 'August 2020',
+      to: 'June 2022',
+      companyLink: '',
     },
   ],
+
   educations: [
     {
       institution: 'Institution Name',
