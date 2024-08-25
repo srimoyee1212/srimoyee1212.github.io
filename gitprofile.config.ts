@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'srimoyee1212/Whisper-Fairness-Eval', 'srimoyee1212/GameRL', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing']
+        projects: ['srimoyee1212/Computer-Vision', 'srimoyee1212/VectorRAG', 'srimoyee1212/BERT-Quantization', 'srimoyee1212/VisualQuestionAnswering', 'srimoyee1212/Art-Speak', 'srimoyee1212/AMoD-Rebalancing']
       },
     },
     external: {
