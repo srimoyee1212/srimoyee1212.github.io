@@ -80,10 +80,24 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Quantiphi Inc',
+      position: 'Machine Learning Research Engineer',
+      from: 'December 2024',
+      to: 'present',
+      companyLink: '',
+    },
+    {
+      company: 'Stealth Startup',
+      position: 'Machine Learning Research Engineer',
+      from: 'October 2024',
+      to: 'December 2024',
+      companyLink: '',
+    },
+    {
       company: 'RapidReview',
       position: 'Machine Learning Research Engineer',
       from: 'January 2024',
-      to: 'Present',
+      to: 'July 2024',
       companyLink: '',
     },
     {
@@ -124,6 +138,15 @@ const CONFIG = {
     },
   ],
   publications: [
+    {
+      title: 'APLE: A Framework for Adaptable and Personalized Live Explainability for Recommender Systems',
+      conferenceName: '18th ACM Web Science Conference 2026',
+      journalName: 'ACM',
+      authors: 'Srimoyee Mukhopadhyay',
+      link: 'Gourab K Patro', 'Srimoyee Mukhopadhyay', 'Arsh Banerjee', 'Daniel Abreu', 'Kevin Perkins', 'Siddharth Kotwal', 'Aram Bidzyan', 'Diganta Nayak'
+      description:
+        'Online platforms increasingly use personalized recommender systems to cater to customers’ individual tastes. Providing explanations along with these recommendations could not only improve customer trust, but also encourage purchases or consumption. Thus, a number of studies have been performed on interpretable recommendation which require replacing the deployed model with proposed interpretable models, thereby making them less adaptable. Another line of work on post-hoc explainability has extended ideas from machine learning explainability, for example LIME, SHAP and IG. However, these methods are computationally heavy —making them unsuitable for live recommender systems where low latency is a must— and rely on association or correlation based attributions. Additionally, converting attribution information into natural language explanations is another step in explainability for which LLMs can be good choice, but they come with additional risks like hallucinations, incorrectness, private-data-leakage and additional latency. Thus, considering all these nuances, we distill them into four major desired characteristics: faithfulness, personalization, low latency, and adaptability. We propose a framework APLE (Adaptable and Personalized Live Explainability) to meet these desired characteristics. Experimental evaluation on public and proprietary datasets validates the efficacy of APLE around the desired characteristics.',
+    },
     {
       title: 'Industrial Control Protocol Fuzzing using Deep Adversarial Networks',
       conferenceName: '2021 International Conference on Advances in Computing, Communication, and Control (ICAC3)',
